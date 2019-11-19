@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:website/widget/menu.dart';
 
-class Homepage extends StatefulWidget {
+class Homepage extends StatelessWidget {
   static const routePath = "/";
 
-  @override
-  _HomepageState createState() => _HomepageState();
-}
-
-class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -23,7 +18,7 @@ class _HomepageState extends State<Homepage> {
             child: Image.network(img),
           ),
           SizedBox(height: 20),
-          Hero(tag: "menu", child: Menu(path: Homepage.routePath,)),
+          Hero(tag: "menu", child: Menu(path: routePath)),
           SizedBox(height: 20)
         ],
       ),

@@ -4,15 +4,10 @@ import 'package:website/homepage.dart';
 import 'package:website/projects.dart';
 import 'package:website/widget/button.dart';
 
-class Menu extends StatefulWidget {
-  Menu({this.path});
+class Menu extends StatelessWidget {
+  Menu({@required this.path});
   final String path;
 
-  @override
-  _MenuState createState() => _MenuState();
-}
-
-class _MenuState extends State<Menu> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -20,17 +15,17 @@ class _MenuState extends State<Menu> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Buttonn(
-              actualPath: widget.path,
+              actualPath: path,
               newRoute: Homepage.routePath,
               title: "Inicio"),
           VerticalDivider(),
           Buttonn(
-              actualPath: widget.path,
+              actualPath: path,
               newRoute: Projects.routePath,
               title: "Projetos"),
           VerticalDivider(),
           Buttonn(
-            actualPath: widget.path,
+            actualPath: path,
             newRoute: Contact.routePath,
             title: "Contato",
           )

@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:website/widget/menu.dart';
 
-class Projects extends StatefulWidget {
+class Projects extends StatelessWidget {
   static const routePath = "/projects";
-  @override
-  _ProjectsState createState() => _ProjectsState();
-}
-
-class _ProjectsState extends State<Projects> {
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
