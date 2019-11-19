@@ -16,8 +16,8 @@ class Menu extends StatelessWidget {
         children: <Widget>[
           Buttonn(
               actualPath: path,
-              newRoute: Homepage.routePath,
-              title: "Inicio"),
+              newRoute: HomePage.routePath,
+              title: "Bio"),
           VerticalDivider(),
           Buttonn(
               actualPath: path,

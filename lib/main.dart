@@ -19,11 +19,11 @@ class MyWebsitio extends StatelessWidget {
       onUnknownRoute: (RouteSettings setting) {
         return FadeRoute(page: Page404());
       },
-      home: Homepage(),
+      home: HomePage(),
       onGenerateRoute: (RouteSettings settings) {
         switch (settings.name) {
           case '/':
-            return FadeRoute(page: Homepage());
+            return FadeRoute(page: HomePage());
             break;
           case '/contact':
             return FadeRoute(page: Contact());

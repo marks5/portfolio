@@ -14,7 +14,7 @@ class Buttonn extends StatelessWidget {
       color: actualPath == newRoute ? Theme.of(context).accentColor : null,
       textColor:
           actualPath == newRoute ? Theme.of(context).textSelectionColor : null,
-      child: Text(title),
+      child: Text(title, style: TextStyle(fontSize: 16.0),),
       onPressed: () {
         if (actualPath != newRoute)
           Navigator.of(context).pushReplacementNamed(newRoute);

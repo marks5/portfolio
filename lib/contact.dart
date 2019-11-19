@@ -10,7 +10,7 @@ class Contact extends StatelessWidget {
       body: Center(
         child: Column(
           children: <Widget>[
-            Hero(tag: "menu", child: Menu(path: routePath,)),
+            Hero(tag: "menu", child: Menu(path: routePath)),
           ],
         ),
       ),
