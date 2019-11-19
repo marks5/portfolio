@@ -8,7 +8,7 @@ class Contact extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Column(
+        child: ListView(
           children: <Widget>[
             Hero(tag: "menu", child: Menu(path: routePath)),
           ],
