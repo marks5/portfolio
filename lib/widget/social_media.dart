@@ -1,13 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SocialMedia extends StatelessWidget {
+  SocialMedia(
+      {@required this.icon,
+      @required this.color,
+      @required this.url,
+      this.text});
+  final Color color;
+  final IconData icon;
+  final String url;
+  final String text;
   @override
   Widget build(BuildContext context) {
     return Center(
         child: InkWell(
-      splashColor: Colors.green,
+      splashColor: color,
       onTap: _launchForMe,
       child: Container(
         width: 250,
@@ -16,14 +24,13 @@ class SocialMedia extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Icon(
-              FontAwesomeIcons.whatsapp,
-              color: Colors.green,
+              icon,
+              color: color,
             ),
             SizedBox(
               width: 10,
             ),
-            Text("+21 xxxxxxxxx",
-                style: TextStyle(fontWeight: FontWeight.bold)),
+            Text(text, style: TextStyle(fontWeight: FontWeight.bold)),
           ],
         ),
       ),
@@ -31,7 +38,6 @@ class SocialMedia extends StatelessWidget {
   }
 
   _launchForMe() async {
-    const url = 'https://flutter.dev';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
