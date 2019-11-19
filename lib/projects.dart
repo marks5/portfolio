@@ -19,6 +19,7 @@ class Projects extends StatelessWidget {
 
   List<Widget> _buildList(bool vertical) {
     List<Widget> list = List<Widget>();
+    list.add(SizedBox(height: 20));
     list.add(_hero());
 
     if(vertical){

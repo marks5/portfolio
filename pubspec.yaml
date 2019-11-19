@@ -21,6 +21,12 @@ dependencies:
     sdk: flutter
   mobx: ^0.3.9+3
   transparent_image: ^0.1.0
+  font_awesome_flutter: ^8.5.0
+  url_launcher: ^5.1.4
+  url_launcher_web:
+    git:
+      url: git://github.com/flutter/plugins.git
+      path: packages/url_launcher/url_launcher_web
 
 
   # The following adds the Cupertino Icons font to your application.

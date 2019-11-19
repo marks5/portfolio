@@ -13,7 +13,6 @@ class HomePage extends StatelessWidget {
     return Scaffold(
         body: Center(
       child: ListView(
-        scrollDirection: Axis.vertical,
         physics: BouncingScrollPhysics(),
         children: <Widget>[
           Stack(

@@ -4,10 +4,12 @@ class Buttonn extends StatelessWidget {
   Buttonn(
       {@required this.actualPath,
       @required this.newRoute,
-      @required this.title});
+      @required this.title,
+      this.icon});
   final String actualPath;
   final String newRoute;
   final String title;
+  final Icon icon;
   @override
   Widget build(BuildContext context) {
     return FlatButton(
