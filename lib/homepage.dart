@@ -40,30 +40,15 @@ class HomePage extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                Container(
-                  constraints: BoxConstraints(maxWidth: 800),
-                  child: Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 16.0),
-                    child: Text(
-                        "Proin ut lacinia libero. Proin rhoncus ultricies sodales. Fusce at tempus nibh, eget sagittis ligula. Integer sed quam enim. Integer sem tortor, iaculis eget mauris id, viverra consectetur sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin interdum faucibus augue sit amet cursus. Donec auctor mi at nisi gravida, vel fermentum nunc gravida. Curabitur nec ex id eros pretium ornare. Donec ullamcorper vulputate est."))),
+                Texxt(content: "Proin ut lacinia libero. Proin rhoncus ultricies sodales. Fusce at tempus nibh, eget sagittis ligula. Integer sed quam enim. Integer sem tortor, iaculis eget mauris id, viverra consectetur sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin interdum faucibus augue sit amet cursus. Donec auctor mi at nisi gravida, vel fermentum nunc gravida. Curabitur nec ex id eros pretium ornare. Donec ullamcorper vulputate est."),
                 SizedBox(
                   height: 20,
                 ),
-                Container(
-                  constraints: BoxConstraints(maxWidth: 800),
-                  child: Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 16.0),
-                    child: Text(
-                        "Vestibulum ut pulvinar tortor. Vivamus magna ipsum, laoreet sed molestie et, venenatis ut tortor. Morbi ut justo et risus pellentesque posuere. Curabitur sodales nulla non est hendrerit tempor. Donec hendrerit, nibh id auctor ornare, tortor nunc tristique ex, eget maximus arcu neque eu dui. Vestibulum quis odio ligula. Fusce rhoncus sapien eget placerat cursus. Duis laoreet, nisl id ullamcorper euismod, velit odio volutpat eros, a rhoncus enim sem sit amet ipsum. Suspendisse venenatis sapien et odio dapibus, quis posuere lacus fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras non dui vel orci dictum vestibulum."))),
+                Texxt(content: "Vestibulum ut pulvinar tortor. Vivamus magna ipsum, laoreet sed molestie et, venenatis ut tortor. Morbi ut justo et risus pellentesque posuere. Curabitur sodales nulla non est hendrerit tempor. Donec hendrerit, nibh id auctor ornare, tortor nunc tristique ex, eget maximus arcu neque eu dui. Vestibulum quis odio ligula. Fusce rhoncus sapien eget placerat cursus. Duis laoreet, nisl id ullamcorper euismod, velit odio volutpat eros, a rhoncus enim sem sit amet ipsum. Suspendisse venenatis sapien et odio dapibus, quis posuere lacus fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras non dui vel orci dictum vestibulum."),
                 SizedBox(
                   height: 20,
                 ),
-                Container(
-                  constraints: BoxConstraints(maxWidth: 800),
-                  child: Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 16.0),
-                    child: Text(
-                        "Sed mattis, mauris faucibus condimentum euismod, orci lectus dapibus turpis, efficitur molestie dolor felis ac odio. Curabitur id mattis leo, vel lacinia erat. Morbi nec ornare justo, at pretium arcu. In viverra ante sed leo mollis pulvinar. In congue eget nunc at ultrices. In ultrices turpis a orci rhoncus semper. Suspendisse potenti. Praesent eleifend ante nec orci iaculis, porttitor egestas sem ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ut rutrum tortor."))),
+                Texxt(content: "Sed mattis, mauris faucibus condimentum euismod, orci lectus dapibus turpis, efficitur molestie dolor felis ac odio. Curabitur id mattis leo, vel lacinia erat. Morbi nec ornare justo, at pretium arcu. In viverra ante sed leo mollis pulvinar. In congue eget nunc at ultrices. In ultrices turpis a orci rhoncus semper. Suspendisse potenti. Praesent eleifend ante nec orci iaculis, porttitor egestas sem ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ut rutrum tortor."),
                 SizedBox(
                   height: 20,
                 ),
