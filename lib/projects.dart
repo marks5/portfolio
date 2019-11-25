@@ -5,16 +5,13 @@ import 'package:website/widget/vertical_layout.dart';
 
 class Projects extends StatelessWidget {
   static const routePath = "/projects";
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: ListView(
-          children: _buildList(MediaQuery.of(context).size<Size.fromWidth(1024)),
-        ),
-      ),
-    );
+        body: Column(
+      children: _buildList(MediaQuery.of(context).size < Size.fromWidth(1024)),
+    ));
   }
 
   List<Widget> _buildList(bool vertical) {
@@ -22,9 +19,9 @@ class Projects extends StatelessWidget {
     list.add(SizedBox(height: 20));
     list.add(_hero());
 
-    if(vertical){
+    if (vertical) {
       list.add(VerticalLayout());
-    }else{
+    } else {
       list.add(HorizontalLayout());
     }
 
