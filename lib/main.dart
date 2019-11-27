@@ -13,7 +13,7 @@ class MyWebsitio extends StatelessWidget {
       title: 'Heyyooo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.blue,
         textSelectionColor: Colors.white
       ),
       onUnknownRoute: (RouteSettings setting) {

@@ -10,7 +10,7 @@ class Texxt extends StatelessWidget {
       constraints: BoxConstraints(maxWidth: 800),
       child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 16.0),
-          child: Text(content)),
+          child: Text(content )),
     );
   }
 }
