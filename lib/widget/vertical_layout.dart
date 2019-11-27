@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:website/widget/item_horizontal.dart';
 import 'package:website/widget/item_vertical.dart';
 
 class VerticalLayout extends StatelessWidget {
